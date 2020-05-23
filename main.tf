@@ -11,7 +11,7 @@ resource "docker_container" "nginx" {
   name  = "enginecks"
   ports {
     internal = 80
-    external = 80
+    external = 8888
   }
 }
 
